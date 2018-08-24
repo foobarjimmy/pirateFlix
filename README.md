@@ -4,7 +4,7 @@
 
 <img src="./preview.png" />
 
-## Install
+## Installation
 
 Original pirateflix has been unpublished from its repo,using my repo instead.
 
