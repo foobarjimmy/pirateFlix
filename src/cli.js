@@ -46,9 +46,11 @@ module.exports = function () {
         choices: data.history,
       });
 
+
     case 'clear':
       config.deleteMovies();
       return;
+
 
     case 'search':
       app.applySearch({
