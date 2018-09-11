@@ -38,7 +38,7 @@ module.exports = function () {
       const data = config.get();
 
       if (!data.history.length) {
-        die('You don\'t have any data in your history yet.');
+        die('You don\'t have any movie in your history yet.');
         return;
       }
 
