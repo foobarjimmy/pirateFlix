@@ -14,7 +14,7 @@ import additional from './helpers/additional';
 import { saveMovie } from './helpers/config';
 
 const peerflix = path.join(__dirname, '../node_modules/peerflix/app.js');
-const spinner = ora('Hang on, pirate doing pirate suff... 💀');
+const spinner = ora('Hang on, pirate doing pirate stuff... 💀');
 
 export function show({ search, choices, page = 0 }) {
   prompt({
