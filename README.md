@@ -4,23 +4,32 @@
 
 <img src="./preview.png" />
 
-## Installation
+## Install from npm package
+$ npm install pirateflix@1.0.15
 
-Original pirateflix has been unpublished from its repo,using my repo instead.
+## Install from git repo
 
 ```sh
-# the output of "node -v" is referred as $NODE_VERSION
+# the output of "node -v" is referred as $node_version
 $ node -v
+```
 
+```sh
 $ git clone https://github.com/Lisheng2016/pirateflix.git
 
-# install pirateflix to /usr/local/Cellar/node/$NODE_VERSION/lib/node_modules/pirateflix/bin/cli.js
+# brew node is installed @ /usr/local/Cellar/node/$NODE_VERSION
+# if you install node by itself, change node path accordingly
+# to install pirateflix locally
 $ npm install  
 
-# enable pirateflix globally by creating symlink
+# run pirateflix manually as testing
+$ cd /path/to/pirateflix
+$ node bin/cli.js
+
+# enable pirateflix globally by creating symlink /usr/local/Cellar/node/$NODE_VERSION/bin/pirateflix => /usr/local/Cellar/node/$NODE_VERSION/node_modules/pirateflix/bin/cli.js
 $ npm install -g
 
-# make sure pirateflix is correctly placed
+# make sure pirateflix is correctly placed and reachable via $PATH
 $ which pirateflix
   /usr/local/Cellar/node/$NODE_VERSION/bin/pirateflix
 ```
