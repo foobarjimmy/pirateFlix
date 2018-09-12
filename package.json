@@ -39,7 +39,7 @@
     "meow": "^3.7.0",
     "ora": "^0.2.1",
     "package.json": "^2.0.1",
-    "peerflix_clearfix": "^0.39.1"
+    "peerflix_clearfix": "^0.39.2"
   },
   "devDependencies": {
     "babel-cli": "^6.6.5",

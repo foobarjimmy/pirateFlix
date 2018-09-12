@@ -13,7 +13,7 @@ import format from './helpers/format';
 import additional from './helpers/additional';
 import { saveMovie } from './helpers/config';
 
-const peerflix = path.join(__dirname, '../node_modules/peerflix/app.js');
+const peerflix = path.join(__dirname, '../node_modules/peerflix_clearfix/app.js');
 const spinner = ora('Hang on, pirate doing pirate stuff... 💀');
 
 export function show({ search, choices, page = 0 }) {
