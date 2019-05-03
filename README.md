@@ -6,7 +6,7 @@
 
 ## Install from npm package
 ```sh
-$ npm install pirateflix@1.0.15
+$ npm install -g pirateflix@1.0.15
 ```
 
 ## Install from git repo
